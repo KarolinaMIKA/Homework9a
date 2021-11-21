@@ -221,3 +221,63 @@ img{
     font-size: 10px;
     z-index: 100;
 }
+.f:after{
+    content: "By Joe Smith";
+    color: gray;
+    margin-left: 5px;
+    position: relative;
+    top: -10px;
+    left: 0px;
+    font-size: 10px;
+
+}
+.f::before{
+    content: "42comments";
+    color: gray;
+
+    position: absolute;
+    top: 95px;
+    left: 130px;
+    font-size: 10px;
+    z-index: 100;
+}
+.g:after{
+    content: "By Joe Smith";
+    color: gray;
+    margin-left: 5px;
+    position: relative;
+    top: -10px;
+    left: 0px;
+    font-size: 10px;
+
+}
+.g::before{
+    content: "42comments";
+    color: gray;
+
+    position: absolute;
+    top: 95px;
+    left: 130px;
+    font-size: 10px;
+    z-index: 100;
+}
+.i:after{
+    content: "By Joe Smith";
+    color: gray;
+    margin-left: 5px;
+    position: relative;
+    top: -10px;
+    left: 0px;
+    font-size: 10px;
+
+}
+.i::before{
+    content: "42comments";
+    color: gray;
+
+    position: absolute;
+    top: 95px;
+    left: 130px;
+    font-size: 10px;
+    z-index: 100;
+}
