@@ -261,6 +261,26 @@ img{
     font-size: 10px;
     z-index: 100;
 }
+.h:after{
+    content: "By Joe Smith";
+    color: gray;
+    margin-left: 5px;
+    position: relative;
+    top: 22px;
+    left: 0px;
+    font-size: 10px;
+
+}
+.h:before{
+    content: "42comments";
+    color: gray;
+
+    position: absolute;
+    top: 125px;
+    left: 130px;
+    font-size: 10px;
+    z-index: 100;
+}
 .i:after{
     content: "By Joe Smith";
     color: gray;
@@ -271,12 +291,12 @@ img{
     font-size: 10px;
 
 }
-.i::before{
+.i:before{
     content: "42comments";
     color: gray;
 
     position: absolute;
-    top: 95px;
+    top: 93px;
     left: 130px;
     font-size: 10px;
     z-index: 100;
