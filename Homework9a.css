@@ -124,8 +124,26 @@ img{
     left: 197px;
     
 }
-div:after{
-    content: By Joe Smith      42comments;
+.a:after{
+    content: "By Joe Smith";
+    color: gray;
+    margin-left: 5px;
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-size: 10px;
+}
+.a::before{
+    content: "42comments";
+    color: gray;
+    margin-left: 5px;
+    position: relative;
+    top: 207px;
+    left:150px;
+    font-size: 10px;
+}
+.b:after{
+    content: "By Joe Smith";
     color: gray;
     align-items: flex-end;
 }
